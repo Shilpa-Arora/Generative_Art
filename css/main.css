@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*css doc*/
+/* set properties*/
+body
+{
+	 background-image: url("../images/bg.png"); /*changes background image*/
+}
+h1
+{
+	text-align: center; /*align text to center*/
+	font-family: 'Nunito', sans-serif, Times, serif;; /*changes font for H1*/
+	color: white; /*changes fontcolor to white*/
+}
+h2
+{
+	text-align: center;
+	font-family: 'Nunito', sans-serif,  Times, serif;;
+	color: white;
+}
+/*set canvas properties*/
+#canvasShapes 
+{
+	border: solid 1px #efefef;/*gives border to canvas*/
+	margin: 50px auto;
+	width: 1200px;
+	display: block;
+	background-color: rgba(128,128,128,0.6);/*changes background color of canvas*/
+	}
